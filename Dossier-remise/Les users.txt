@@ -1,0 +1,23 @@
+nom de compte     & password
+
+
+Administrateur :
+
+admin 			admin
+boris			boris
+
+Manager : 
+
+mike99			mike99
+harvey123		harvey123
+
+
+
+Member :
+
+freddy			freddy
+Leonard			Leonard
+Thrall			Thrall
+memberBySignup		member
+LouisdeParis		LouisdeParis
+createbymanager		createbymanager

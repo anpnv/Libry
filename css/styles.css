@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+del,
+em,
+img,
+strong,
+sub,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+table,
+tbody,
+thead,
+tr,
+th,
+td,
+aside,
+footer,
+header,
+menu,
+nav,
+output,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.success {
+    color: rgba(8, 119, 8, 0.986);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+aside,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+#index {
+    background-image: url("../image/02.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 5%;
+    font-weight: 750;
+    color: #666;
+    color: black;
+}
+
+#index table {
+    padding-left: 0;
+}
+
+#right {
+    padding-left: 120px;
+}
+
+#left {
+    padding-right: 120px;
+}
+
+#logo {
+    padding-top: 4px;
+    text-align: center;
+}
+
+#indexitle {
+    color: #123;
+    margin: 50% auto;
+}
+
+.errOrSuccess {
+    text-align: center;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #888;
+}
+
+input,
+select {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #888;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    color: #666;
+    line-height: 1.5em;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 a strong,
+h2 a strong,
+h3 a strong,
+h4 a strong,
+h5 a strong,
+h6 a strong {
+    color: #333;
+}
+
+h2 {
+    font-size: 2em;
+    letter-spacing: -1px;
+}
+
+h2.alt {
+    color: #888;
+}
+
+h2.alt strong {
+    color: #666;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+header {
+    margin: 0 0 2em 0;
+}
+
+footer {
+    margin: 2em 0 0 0;
+}
+
+strong,
+b {
+    font-weight: 300;
+    color: #666;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: 0;
+}
+
+a:hover {
+    color: #E27689;
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+sub {
+    position: relative;
+    top: 0.5em;
+    font-size: 0.8em;
+}
+
+sup {
+    position: relative;
+    top: -0.5em;
+    font-size: 0.8em;
+}
+
+hr {
+    border: 0;
+    border-top: solid 1px #ddd;
+}
+
+p,
+ul,
+ol,
+dl,
+table {
+    margin-bottom: 2em;
+}
+
+br.clear {
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 80%;
+    right: 0;
+    position: absolute;
+    padding: 1em;
+    overflow-y: scroll;
+}
+
+.formAction {
+    display: inline;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="date"],
+form input[type="password"],
+form select,
+form textarea {
+    position: relative;
+    -webkit-appearance: none;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    width: 80%;
+    border-radius: 0.35em;
+    padding: 6px 3px 6px 3px;
+    margin: 0.15px;
+    box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px rgba(0, 0, 0, 0.267);
+}
+
+form .selectBook {
+    width: 350px;
+}
+
+form .divider {
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+form .date {
+    width: 250px;
+    display: inline-block;
+}
+
+form .radiobtn {
+    display: inline-block;
+}
+
+form .bookBtn {
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+}
+
+form input.isbnwidth {
+    width: 180px;
+    text-align: center;
+}
+
+form input.bookAv {
+    width: 50px;
+    text-align: center;
+    background-color: #e7746f;
+    color: black;
+}
+
+form input.eanDigit {
+    width: 30px;
+    text-align: center;
+    background-color: #8ebebc;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="date"],
+form select:focus,
+form textarea:focus {
+    box-shadow: 0 0 2px 1px #8ebebc;
+    background: #fff;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="password"],
+form select {
+    line-height: 1em;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+.loginForm td:first-child {
+    text-align: right;
+}
+
+.loginForm input {
+    text-align: left;
+}
+
+table td {
+    padding: 4px 8px 4px 8px;
+}
+
+table th {
+    text-align: left;
+    padding: 6px 12px 6px 12px;
+    color: #fff;
+}
+
+.listTabF,
+.listTabR {
+    display: inline-block;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.listTabF {
+    height: 250px;
+}
+
+.listTabR {
+    height: 450px;
+}
+
+.listTabR table tbody tr:nth-child(odd) {
+    background: #f4f4f4;
+}
+
+.listTabU table tbody:nth-child(odd) {
+    background: #f4f4f4;
+}
+
+.listTab table tbody tr:nth-child(odd) {
+    background: #f4f4f4;
+}
+
+table thead {
+    background: #444;
+    color: #fff;
+}
+
+input[type="button"],
+input[type="submit"] {
+    position: relative;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 1px 2px 1px 2px;
+    background-color: #8ebebc;
+    border: 0;
+    cursor: pointer;
+}
+
+.action-button {
+    display: inline-block;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:hover {
+    background-color: #9ececc;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #222629;
+    box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+    color: #fff;
+    height: 100%;
+    left: 0;
+    overflow-y: auto;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 20%;
+}
+
+#logo {
+    position: relative;
+    margin: 1.75em 1.5em 1.5em 1.5em;
+    min-height: 48px;
+}
+
+#logo h1 {
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+#logo p {
+    position: relative;
+    display: block;
+    font-size: 0.6em;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.25em;
+    margin: 0.5em 0 0 0;
+}
+
+#logo .image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#nav ul {
+    display: block;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    outline: 0;
+    font-size: 35px;
+}
+
+#nav ul li a {
+    position: relative;
+    display: block;
+    font-size: 0.8em;
+}
+
+.datePast {
+    background-color: #e7746f;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    background-color: #e7746f;
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+.icnWarning,
+.addbaskIcon,
+.checkIcon,
+.delIcon,
+.delbaskIcon,
+.createReturn {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.clearBask,
+.confirmBask,
+.switchUser {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.switchUser {
+    background-image: url('../image/consulting.png');
+}
+
+.addbaskIcon {
+    background-image: url('../image/down-arrow.png');
+}
+
+.checkIcon {
+    background-image: url('../image/loupe.png');
+}
+
+.delbaskIcon {
+    background-image: url('../image/up-arrow.png');
+}
+
+.delIcon {
+    background-image: url('../image/error.png');
+}
+
+.clearBask {
+    background-image: url('../image/clear-cart.png');
+}
+
+.confirmBask {
+    background-image: url('../image/cart.png');
+}
+
+.createReturn {
+    background-image: url('../image/return.png');
+}
